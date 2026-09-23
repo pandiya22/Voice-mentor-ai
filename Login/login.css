@@ -1,0 +1,229 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Inter,sans-serif;
+}
+
+body{
+
+  min-height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background:
+  radial-gradient(
+  circle at top,
+  rgba(34,184,255,.15),
+  transparent 40%
+  ),
+  linear-gradient(
+  180deg,
+  #02040c,
+  #091425,
+  #050712
+  );
+}
+
+.mobile-frame{
+
+  width:390px;
+  height:844px;
+
+  background:
+  linear-gradient(
+  180deg,
+  #050712,
+  #091425
+  );
+
+  border-radius:35px;
+
+  overflow:hidden;
+
+  border:1px solid
+  rgba(255,255,255,.1);
+
+  position:relative;
+}
+
+.login-screen{
+
+  height:100%;
+
+  padding:35px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.small-orb{
+
+  width:90px;
+  height:90px;
+
+  border-radius:50%;
+
+  margin:0 auto 25px;
+
+  background:
+  radial-gradient(
+  circle,
+  white,
+  #36ffe0,
+  #22b8ff
+  );
+
+  box-shadow:
+  0 0 30px #36ffe0;
+}
+
+h1{
+
+  text-align:center;
+
+  color:white;
+
+  font-size:32px;
+}
+
+.subtitle{
+
+  text-align:center;
+
+  color:#9fb4d2;
+
+  margin-top:10px;
+  margin-bottom:35px;
+}
+
+.form-group{
+
+  margin-bottom:18px;
+}
+
+label{
+
+  color:white;
+
+  display:block;
+
+  margin-bottom:8px;
+}
+
+input{
+
+  width:100%;
+
+  height:55px;
+
+  border:none;
+
+  outline:none;
+
+  border-radius:16px;
+
+  padding:0 16px;
+
+  background:
+  rgba(255,255,255,.08);
+
+  color:white;
+}
+
+.password-box{
+
+  position:relative;
+}
+
+#togglePassword{
+
+  position:absolute;
+
+  right:15px;
+
+  top:50%;
+
+  transform:
+  translateY(-50%);
+
+  border:none;
+
+  background:none;
+
+  color:white;
+
+  cursor:pointer;
+}
+
+.login-btn{
+
+  height:55px;
+
+  border:none;
+
+  border-radius:16px;
+
+  margin-top:15px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  background:
+  linear-gradient(
+  135deg,
+  #36ffe0,
+  #22b8ff
+  );
+}
+
+.google-btn{
+
+  height:55px;
+
+  margin-top:15px;
+
+  border-radius:16px;
+
+  border:1px solid
+  rgba(255,255,255,.15);
+
+  background:transparent;
+
+  color:white;
+
+  cursor:pointer;
+}
+
+.text-btn{
+
+  border:none;
+
+  background:none;
+
+  color:#36ffe0;
+
+  margin-top:20px;
+
+  cursor:pointer;
+}
+
+.register-text{
+
+  text-align:center;
+
+  color:#9fb4d2;
+
+  margin-top:25px;
+}
+
+.register-text a{
+
+  color:#36ffe0;
+
+  text-decoration:none;
+}

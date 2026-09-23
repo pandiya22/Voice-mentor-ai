@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Home Dashboard</title>
+
+<link rel="stylesheet"
+href="./home.css">
+</head>
+<body>
+
+<div class="mobile-frame">
+
+<header class="topbar">
+
+<div class="profile">
+
+<div class="avatar">
+P
+</div>
+
+<div>
+
+<h3 id="userName">Loading...</h3>
+
+<p id="userLevel">
+Loading...
+</p>
+
+</div>
+
+</div>
+
+<div class="streak">
+
+🔥 <span id="streakValue">1</span>
+
+</div>
+
+</header>
+
+<section class="stats">
+
+<div class="card">
+
+<h2 id="xpValue">0</h2>
+
+<p>XP</p>
+
+</div>
+
+<div class="card">
+
+<h2 id="levelValue">1</h2>
+
+<p>Level</p>
+
+</div>
+
+</section>
+
+<section class="mentor">
+
+<div class="orb"></div>
+
+<p>
+Listening...
+</p>
+
+</section>
+
+<section class="actions">
+
+<button
+class="action-btn"
+onclick="window.location.href='../Voice/voice.html'">
+
+🎤 Voice Mentor
+
+</button>
+
+<button
+class="action-btn"
+onclick="window.location.href='../Skills/skills.html'">
+
+📚 Skills
+
+</button>
+
+<button
+class="action-btn"
+onclick="window.location.href='../Focus/focus.html'">
+
+⏱ Focus Mode
+
+</button>
+
+<button
+class="action-btn"
+onclick="window.location.href='../Reports/reports.html'">
+
+📈 Reports
+
+</button>
+
+</section>
+
+<section class="metrics">
+
+<div class="metric">
+
+😊 Mood
+
+<b>80%</b>
+
+</div>
+
+<div class="metric">
+
+🎯 Productivity
+
+<b>70%</b>
+
+</div>
+
+</section>
+<nav class="bottom-nav">
+
+<a class="active"
+href="../Home/home.html">
+🏠
+</a>
+
+<a
+href="../Skills/skills.html">
+📚
+</a>
+
+<a
+href="../Voice/voice.html">
+🎤
+</a>
+
+<a
+href="../Reports/reports.html">
+📈
+</a>
+
+<a
+href="../Profile/profile.html">
+👤
+</a>
+
+</nav>
+</div>
+
+<script type="module" src="./home.js"></script>
+<script type="module" src="./xp.js"></script>
+
+</body>
+</html>
